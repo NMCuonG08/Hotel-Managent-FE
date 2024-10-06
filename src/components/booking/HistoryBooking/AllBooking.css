@@ -1,0 +1,75 @@
+.table thead th {
+    text-align: center;
+    background-color: #f8f9fa;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .table td, .table th {
+    vertical-align: middle;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .badge {
+    font-size: 1rem;
+    padding: 0.5em 0.75em;
+  }
+
+  .custom-form{
+    color: rgb(247, 119, 119);
+    font-weight: bold;
+    
+  }
+  .custom-form .custom-control{
+   border: none;
+
+   border-radius: 0;
+    transition: all 0.3s ease;
+  }
+  .custom-form .custom-control-banned{
+    border: none;
+
+    border-radius: 0;
+     transition: all 0.3s ease;
+     cursor : not-allowed;
+   }
+  .custom-form .custom-control:hover{
+    
+    color: rgb(130, 123, 45);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .custom-form .custom-control:focus{
+    border-bottom: 1px solid rgb(250, 23, 23);
+    color: rgb(130, 123, 45);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .other span {
+    color: rgb(29, 159, 171);
+    font-weight: bold;
+    font-size:20px;
+    text-decoration: underline;
+  }
+  .other span:hover {
+    color: rgb(192, 87, 17);
+    font-weight: bold;
+    font-size:20px;
+    cursor: pointer;
+  }
+
+  .other .ic {
+    color: rgb(197, 195, 40);
+    margin-right: 20px;
+    margin-bottom: 7px;
+    font-size:20px;
+  }
+  

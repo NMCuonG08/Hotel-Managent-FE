@@ -1,0 +1,47 @@
+.custom-input {
+    border: 1px solid #ced4da !important; /* Đường viền */
+    border-radius: .25rem !important; /* Độ cong góc */
+    padding: .375rem .75rem !important; /* Khoảng cách nội dung */
+    font-size: 1rem !important; /* Cỡ chữ */
+    line-height: 1.5 !important; /* Độ cao dòng */
+    color: #495057 !important; /* Màu chữ */
+    background-color: #fff !important; /* Màu nền */
+    outline: none !important; /* Loại bỏ viền khi tập trung */
+    box-shadow: none !important; /* Loại bỏ bóng đổ khi tập trung */
+  }
+  
+  input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+.custom-btn {
+  outline: none;
+  border: none; 
+}
+
+.custom-btn:hover, .custom-btn:focus {
+  background-color: rgb(227, 246, 254);
+  outline: none;
+  border: none; 
+}
+
+.btn-guest {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 6rem;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 40px; 
+  height: 40px;
+  padding: 10px 14px;
+  font-size: 16px; 
+  cursor: pointer;
+}
+.btn-guest:hover {
+  background-color:rgb(243, 236, 236);
+}
+.btn-guest:focus {
+  background-color:rgb(54, 229, 74);
+  border: 1px solid rgb(68, 227, 108);
+}

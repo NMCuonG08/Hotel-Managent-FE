@@ -1,0 +1,23 @@
+.no-border {
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 10px;
+    z-index: 1;
+  }
+  
+  .no-border:hover, .no-border:focus {
+    background-color: #f8f9fa;
+    color: #000;
+  }
+  .accordion-container {
+    position: relative;
+   
+  }
+  
+  .accordion-body {
+    
+    position: absolute;
+    width: 100%;
+    z-index: 1; /* Đảm bảo phần tử này nằm trên các phần tử khác */
+    background-color: white; /* Đảm bảo nền trắng cho phần tử */
+  }

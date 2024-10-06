@@ -1,0 +1,21 @@
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 999;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .notification.visible {
+    opacity: 1;
+  }
+  
+  .notification.hidden {
+    display: none;
+  }
+  

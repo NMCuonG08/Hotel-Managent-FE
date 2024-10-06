@@ -1,0 +1,107 @@
+.overview-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.pane {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.data-box {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.data-box .title {
+    width: 200px;
+    font-size: 17px;
+    font-weight: 600;
+   
+}
+
+.data-bar {
+    flex: 1;
+    height: 20px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    position: relative;
+}
+
+ .data-per {
+    height: 100%;
+    border-radius: 6px;
+    background-color: crimson !important; 
+    animation: progress 0.4s ease-in-out ;
+   
+}
+
+.tooltip {
+    position: absolute;
+    right: 0;
+    top: -25px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background: crimson;
+    z-index: 1;
+}
+
+.tooltip::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: crimson transparent transparent transparent;
+}
+
+@keyframes progress {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+.custom-cricle{
+    width: 160px;
+    height: 160px;
+   border-radius: 80px;
+    background: rgb(47, 178, 225);   
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: #fff; 
+    text-align: center; 
+    font-size: 40px;
+
+
+}
+@media (max-width: 1190px) {
+    .data-box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+.view-more{
+    color: orange;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.custom-card-text{
+    border : 1px solid rgb(198, 198, 198);
+    border-radius: 20px;  
+    padding: 10px;
+}

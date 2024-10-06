@@ -1,0 +1,47 @@
+/* src/App.css */
+body {
+    font-size: .875rem;
+  }
+  
+  .main-container {
+    padding: 20px;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 48px 0 0;
+  }
+  
+  .sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  
+  .nav-link {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .nav-link .feather {
+    margin-right: 4px;
+    color: #727272;
+  }
+  
+  .nav-link.active {
+    color: #007bff;
+  }
+  
+  .nav-link:hover .feather,
+  .nav-link.active .feather {
+    color: inherit;
+  }
+  

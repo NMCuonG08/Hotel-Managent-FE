@@ -1,0 +1,70 @@
+.modal-header-custom {
+    border-bottom: none; 
+    color: rgb(7, 122, 157);
+  }
+  
+  .convenient-list {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .convenient-column {
+    flex: 1;
+    padding: 10px;
+    font-size:20px;
+  }
+
+  .capitalize {
+    text-transform: capitalize;
+  }
+
+
+  .capitalize  li::marker {
+    font-size: 0.5em; 
+    margin-right: 10px;
+  }
+  .eating-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Khoảng cách giữa các cột */
+  }
+  
+  .eating-item {
+    flex: 1 1 calc(50% - 20px); /* Chiều rộng của từng cột (2 cột với khoảng cách) */
+    box-sizing: border-box; /* Đảm bảo padding và border không làm thay đổi kích thước */
+  }
+.convenient span:hover {
+    color: red;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.convenient span{
+    color: rgb(52, 180, 227);
+}
+
+.ico {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.conve-icon{
+  margin-bottom: 5px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.convenient p{
+  margin: 0;
+ 
+}
+
+
+.custom-card {
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out; 
+}
+.custom-card:hover {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); 
+  transform: translateY(-5px);
+  
+}

@@ -1,0 +1,41 @@
+
+.text-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    overflow: hidden; /* Đảm bảo nội dung không bị tràn ra ngoài */
+  }
+  
+  .text-content h5 {
+    margin: 0;
+    font-size: 1rem; /* Đặt kích thước văn bản cơ bản */
+    transition: font-size 0.3s ease;
+  }
+  
+  @media (max-width: 1200px) {
+    .text-content h5 {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .text-content h5 {
+      font-size: 0.5rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .text-content h5 {
+      font-size: 0.7rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .text-content h5 {
+      font-size: 0.6rem;
+    }
+  }
+  

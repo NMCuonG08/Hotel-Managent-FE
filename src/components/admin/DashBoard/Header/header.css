@@ -1,0 +1,16 @@
+.header {
+    transition: all 0.5s;
+    z-index: 997;
+    height: 60px;
+    box-shadow: 0 1px 1px rgb(236, 236, 236);
+    background-color:white;
+    padding-left: 20px;
+    
+}
+
+.header .toggle-slidebar-btn {
+    font-size: 32px;
+    padding-left:20px;
+    cursor: pointer;
+    color:blue;
+}

@@ -1,0 +1,127 @@
+.sidebar {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+    z-index: 996;
+    transition: all 0.3s;
+    padding: 10px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: gray;
+    background-color: rgb(255, 255, 255);
+    border-right: none !important;
+}
+
+@media (max-width: 1199px) {
+    .sidebar {
+        left: -200px;
+    }
+}
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: rgb(16, 16, 17);
+}
+.sidebar::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color: rgb(167, 160, 160);
+}
+
+@media (min-width: 1200px) {
+    #main,
+    #footer {
+        margin-left: 200px;
+    }
+}
+@media (max-width: 1199px) {
+    .toggle-sidebar .sidebar {
+        left: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .toggle-sidebar #main,
+    .toggle-sidebar #footer {
+        margin-left: 0;
+    }
+    .toggle-sidebar .sidebar {
+        left: -300px;
+    }
+}
+
+.sidebar-nav {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sidebar-nav .nav-item {
+    margin-bottom: 5px;
+}
+
+.sidebar-nav .nav-heading {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: rgb(24, 26, 25);
+    font-weight: 600;
+    margin: 10px 0 5px 15px;
+}
+
+.sidebar-nav .nav-link {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+    background: white;
+    padding: 20px 10px;
+    border-radius: 20px;
+}
+
+.sidebar-nav .nav-link:hover {
+    background-color: rgb(235, 255, 255);
+    cursor: pointer;
+}
+
+.sidebar-nav .nav-link span {
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+.sidebar-nav .nav-link.active {
+    font-weight: bold;
+    background-color:  rgb(173, 227, 227);
+    color: rgb(5, 12, 213);
+}
+
+.sidebar-nav .nav-link.collapsed {
+
+    background: white;
+}
+
+.sidebar-nav .nav-link.collapsed i {
+    color: rgb(47, 228, 59);
+}
+
+
+
+.sidebar-nav .nav-link .bi-chevron-down {
+    margin-right: 0;
+    transition: transform 0.2s ease-in-out;
+}
+
+.sidebar-nav .nav-link:not(.collapsed) .bi-chevron-down {
+    transition: rotate(180deg);
+}
+
+.sidebar-nav .nav-content {
+    padding: 5px 0 0 0;
+}

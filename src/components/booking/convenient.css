@@ -1,0 +1,8 @@
+.convenient span:hover {
+    color: red;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.convenient span{
+    color: rgb(52, 180, 227);
+}

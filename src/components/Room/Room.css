@@ -1,0 +1,76 @@
+.room-card{
+    border: none;
+  box-shadow: none;
+}
+
+/* styles.css */
+.hotel-img .container {
+  display: flex;
+}
+
+.hotel-img .left-side {
+  flex: 1;
+  padding: 10px;
+}
+
+.hotel-img .right-side {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.hotel-img .right-side img {
+  width: 50%;
+  height: 50%;
+  padding: 5px;
+}
+
+.hotel-img img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.hotel-img .modal img {
+  width: 100%;
+  height: auto;
+}
+.header-cus button {
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+  align-items: center;
+}
+.header-cus button:hover {
+  background-color: rgb(221, 246, 246);
+  box-shadow : 0px 4px 8px rgba(0, 0, 0, 0.2);
+   
+}
+
+
+.header-cus .deficon {
+  font-size: 20px;
+  margin-right:10px;
+}
+.header-cus span {
+  display: inline-flex; 
+  align-items: center; 
+  margin-left: 50px;
+  padding: 10px;
+  border-radius:20px;
+}
+
+.header-cus span:hover {
+  cursor: pointer; 
+  transform: scale(1.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.header-cus span:hover .deficon {
+  color: #007bff; 
+  
+}
+

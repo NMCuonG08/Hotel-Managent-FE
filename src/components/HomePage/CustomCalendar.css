@@ -1,0 +1,90 @@
+/* Custom styles for react-calendar */
+.react-calendar {
+    width: 100%;
+    max-width: 350px;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.125em;
+  }
+  
+  .react-calendar__navigation {
+    display: flex;
+    height: 44px;
+    margin-bottom: 1em;
+  }
+  
+  .react-calendar__navigation button {
+    color: #000; /* Đặt màu văn bản của các nút */
+    min-width: 44px;
+    background: none;
+    font-size: 16px;
+    font-weight: bold; /* Đặt trọng lượng font về bình thường */
+    background: #fff; /* Đặt nền của các nút */
+    cursor: pointer;
+    pointer-events: none;
+  }
+  
+  .react-calendar__tile {
+    max-width: 100%;
+    padding: 10px 6.6667px;
+    background: none;
+    text-align: center;
+    line-height: 16px;
+    color: #000;
+  }
+  .react-calendar__month-view__days__day {
+    font-size: 12px; /* Tùy chỉnh kích thước font chữ */
+  }
+  
+
+  /* Chỉnh sửa các ngày trong tuần (T2, T3, T4,...) */
+  .react-calendar__month-view__days__day:nth-of-type(1) abbr {
+    display: inline-block;
+    width: 1.5em;
+  }
+  .react-calendar__month-view__days__day:nth-of-type(2) abbr {
+    display: inline-block;
+    width: 1.5em;
+  }
+  .react-calendar__month-view__days__day:nth-of-type(3) abbr {
+    display: inline-block;
+    width: 1.5em;
+  }
+  .react-calendar__month-view__days__day:nth-of-type(4) abbr {
+    display: inline-block;
+    width: 1.5em;
+  }
+  .react-calendar__month-view__days__day:nth-of-type(5) abbr {
+    display: inline-block;
+    width: 1.5em;
+  }
+  .react-calendar__month-view__days__day:nth-of-type(6) abbr {
+    display: inline-block;
+    width: 1.5em;
+  }
+  .react-calendar__month-view__days__day:nth-of-type(7) abbr {
+    display: inline-block;
+    width: 1.5em;
+  }
+  
+
+  .react-calendar__tile--active {
+    background: #007bff; 
+    color: #fff; 
+  }
+  .react-calendar__tile--neighboringMonth {
+    color: #ae1515;
+  }
+
+  /* Ngày không thuộc tháng hiện tại */
+  .react-calendar__tile--neighboringMonth {
+    color: #cccccc;
+  }
+  
+  /* Hover và Focus state của ngày */
+  .react-calendar__tile:enabled:hover,
+  .react-calendar__tile:enabled:focus {
+    background-color: #0fd070;
+    border: 1px solid #007bff;
+    color: white;
+  }

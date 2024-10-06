@@ -1,0 +1,187 @@
+
+#root {
+  width: 100%;
+  font-family:Segoe UI Semibold;
+  font-weight: normal;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 10px;
+  box-shadow: 0 0 0 10px white;
+  border-radius:10px;
+  overflow: hidden;
+}
+.card .top{
+  text-align: center;
+}
+.card p {
+  font-weight: bold;
+  color:rgb(0, 0, 0);
+}
+.card button {
+  outline: 0;
+  border:0;
+  color:white;
+  border-radius:10px;
+  cursor: pointer;
+  font-weight: 400;
+  padding: 8px 20px;
+  width:100%;
+  background:blue;
+}
+
+.card .drag-area{
+  height:150px;
+  border-radius: 5px;
+  border: 2px dashed blue;
+  color: blue;
+  background:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  -webkit-user-select: none;
+  margin-top:25px;
+  transition: border-color 0.3s ease;
+}
+
+.card .drag-area .visible{
+  font-size: 20px;
+}
+
+.card .select{
+  color: violet;
+  margin-left:10px;
+  cursor: pointer;
+  transition:0.4s;
+}
+
+.card .select:hover{
+  opacity:0.6;
+}
+
+.card .container{
+  width:100%;
+  height:auto;
+  display:flex;
+  justify-content:flex-start;
+  align-items:flex-start;
+  flex-wrap:wrap;
+  overflow-y: auto;
+  margin-top:10px;
+}
+
+.card .container .image{
+  width:auto;
+  margin-right:5px;
+  height:175px;
+  position:relative;
+  margin-bottom: 8px;
+}
+
+.card .container .image img{
+  height:100%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card .container .image span{
+  position: absolute;
+  top:-2px;
+  right:10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.drag-area.dragging {
+  border-color: green;
+}
+.read-the-docs {
+  color: red;
+}
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 30px !important ;
+  height: 30px; 
+  background-color:#1668E3 !important;
+  top: 50% !important;
+  border-radius: 20px; 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3); 
+  margin: 0px 10px 10px 10px;
+
+}
+.carousel-control-prev:hover, .carousel-control-next:hover {
+  background-color: rgba(189, 32, 32, 0.8) !important ; 
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-size: 15px !important;  
+}
+.icon-team{
+  margin-bottom: 0.5vh;
+  margin-right: 0.5vh;
+}

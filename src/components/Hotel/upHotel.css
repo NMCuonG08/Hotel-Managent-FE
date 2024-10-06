@@ -1,0 +1,8 @@
+.edit-form  input {
+    border: none ;
+    border-bottom: 1px solid black;
+    border-radius: 0 ;
+}
+.edit-form  input:focus{
+    border-bottom: 3px solid rgb(6, 199, 28);
+}

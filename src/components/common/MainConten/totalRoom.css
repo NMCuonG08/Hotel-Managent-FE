@@ -1,0 +1,13 @@
+.total  .card {
+   margin: 0;
+   border: none;
+   padding: 0px;
+   max-height: 200px;
+   height: 150px;
+   max-width: 300px;
+}
+.icon{
+   font-size: 50px;
+   color: green;
+   margin-top: 30px  ;
+}
